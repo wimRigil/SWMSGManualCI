@@ -17,7 +17,8 @@ class ViewController: UIViewController {
     
     @IBAction func buttonPressed(sender: UIButton) {
         
-        
+        SwiftMessageHelper.waitingMessage(message: SwiftMessagesCode.failCausingError.rawValue)
+        //SwiftMessageHelper.showRefreshError()
         
     }
 
