@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:SwiftMessages-master"
+      name = "SwiftMessages-master">
+      <Group
+         location = "group:Demo"
+         name = "Demo">
+         <FileRef
+            location = "group:Demo.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Demo"
+            name = "Demo">
+            <FileRef
+               location = "group:ViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ExploreViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TacoDialogView.xib">
+            </FileRef>
+            <FileRef
+               location = "group:CountedViewController.swift">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:iconSwiftMessages.imageset"
+                  name = "iconSwiftMessages.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:iconSwiftMessages.pdf">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Icon-App-76x76@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-29x29@1x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-20x20@1x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-40x40@2x-1.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-20x20@2x-1.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-83.5x83.5@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-20x20@2x-2.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-iTunes.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-29x29@1x-1.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-20x20@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-20x20@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-29x29@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-40x40@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-29x29@2x-1.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-60x60@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-60x60@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-76x76@1x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-40x40@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Icon-App-29x29@2x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <Group
+                  location = "group:puppies.imageset"
+                  name = "puppies.imageset">
+                  <FileRef
+                     location = "group:puppies.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:splashBanner.imageset"
+                  name = "splashBanner.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:splashBanner.pdf">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:ViewControllersViewController.swift">
+            </FileRef>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:TacoDialogView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CountedMessageView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Utils.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:demo.png">
+         </FileRef>
+         <FileRef
+            location = "group:appetize.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Design"
+         name = "Design">
+         <FileRef
+            location = "group:SwiftMessagesSegueCreate.png">
+         </FileRef>
+         <FileRef
+            location = "group:swiftmessages.png">
+         </FileRef>
+         <FileRef
+            location = "group:SwiftMessages Demo App Icon.sketch">
+         </FileRef>
+         <FileRef
+            location = "group:SwiftMessagesSegue.gif">
+         </FileRef>
+         <FileRef
+            location = "group:SwiftMessagesDesign.sketch">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:LICENSE.md">
+      </FileRef>
+      <FileRef
+         location = "group:SwiftMessages.podspec">
+      </FileRef>
+      <FileRef
+         location = "group:CHANGELOG.md">
+      </FileRef>
+      <FileRef
+         location = "group:SwiftMessages.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "group:SwiftMessages"
+         name = "SwiftMessages">
+         <FileRef
+            location = "group:KeyboardTrackingView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CALayer+Utils.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MaskingView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SwiftMessages.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PhysicsAnimation.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SwiftMessages.h">
+         </FileRef>
+         <FileRef
+            location = "group:AccessibleMessage.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Error.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PassthroughView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:WindowViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Resources"
+            name = "Resources">
+            <FileRef
+               location = "group:infoIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:warningIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TabView.xib">
+            </FileRef>
+            <FileRef
+               location = "group:infoIconSubtle.png">
+            </FileRef>
+            <FileRef
+               location = "group:MessageView.xib">
+            </FileRef>
+            <FileRef
+               location = "group:errorIconSubtle.png">
+            </FileRef>
+            <FileRef
+               location = "group:warningIcon@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:infoIcon@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:infoIconSubtle@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:errorIcon@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:successIconSubtle.png">
+            </FileRef>
+            <FileRef
+               location = "group:infoIconLight@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:successIcon@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:StatusLine.xib">
+            </FileRef>
+            <FileRef
+               location = "group:warningIconLight.png">
+            </FileRef>
+            <FileRef
+               location = "group:errorIconSubtle@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:errorIconSubtle@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:infoIconLight.png">
+            </FileRef>
+            <FileRef
+               location = "group:successIconLight.png">
+            </FileRef>
+            <FileRef
+               location = "group:successIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:infoIconLight@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:errorIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:errorIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:infoIconSubtle@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:CenteredView.xib">
+            </FileRef>
+            <FileRef
+               location = "group:errorIconLight@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:successIconSubtle@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:warningIconLight@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:warningIconSubtle@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:warningIconSubtle@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:warningIconLight@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:successIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:successIconSubtle@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:errorIconLight@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:infoIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:errorIconLight.png">
+            </FileRef>
+            <FileRef
+               location = "group:CardView.xib">
+            </FileRef>
+            <FileRef
+               location = "group:successIconLight@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:successIconLight@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:warningIconSubtle.png">
+            </FileRef>
+            <FileRef
+               location = "group:warningIcon.png">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:MarginAdjustable+Animation.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSLayoutConstraint+Utils.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MarginAdjustable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CornerRoundingView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Animator.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BackgroundViewable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Presenter.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIViewController+Utils.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Identifiable.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Theme.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PassthroughWindow.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSBundle+Utils.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIEdgeInsets+Utils.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PhysicsPanHandler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TopBottomAnimation.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:BaseView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Weak.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SwiftMessagesSegue.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MessageView.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:ViewControllers.md">
+      </FileRef>
+      <Group
+         location = "group:SwiftMessagesTests"
+         name = "SwiftMessagesTests">
+         <FileRef
+            location = "group:SwiftMessagesTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:iMessageDemo"
+         name = "iMessageDemo">
+         <Group
+            location = "group:iMessageExtensionDemo"
+            name = "iMessageExtensionDemo">
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:MainInterface.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:MessagesViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:iMessageDemo.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:iMessageDemo"
+            name = "iMessageDemo">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <FileRef
+      location = "container:">
+   </FileRef>
+</Workspace>

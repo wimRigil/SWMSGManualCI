@@ -16,6 +16,11 @@
 		4759008A23CF8B8000722C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4759008823CF8B8000722C56 /* LaunchScreen.storyboard */; };
 		4759009523CF8B8000722C56 /* SwiftMsgCITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759009423CF8B8000722C56 /* SwiftMsgCITestTests.swift */; };
 		475900A023CF8B8000722C56 /* SwiftMsgCITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759009F23CF8B8000722C56 /* SwiftMsgCITestUITests.swift */; };
+		475900B423CF8E2800722C56 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475900B323CF8E2800722C56 /* SwiftMessages.framework */; };
+		475900B523CF8E2800722C56 /* SwiftMessages.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 475900B323CF8E2800722C56 /* SwiftMessages.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		475900B923CF903900722C56 /* SwiftMessageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475900B823CF903900722C56 /* SwiftMessageHelper.swift */; };
+		475900BA23CF903900722C56 /* SwiftMessageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475900B823CF903900722C56 /* SwiftMessageHelper.swift */; };
+		475900BB23CF903900722C56 /* SwiftMessageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475900B823CF903900722C56 /* SwiftMessageHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		475900B623CF8E2800722C56 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				475900B523CF8E2800722C56 /* SwiftMessages.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4759007723CF8B8000722C56 /* SwiftMsgCITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMsgCITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4759007A23CF8B8000722C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +70,9 @@
 		4759009B23CF8B8000722C56 /* SwiftMsgCITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMsgCITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4759009F23CF8B8000722C56 /* SwiftMsgCITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMsgCITestUITests.swift; sourceTree = "<group>"; };
 		475900A123CF8B8000722C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475900AF23CF8D0A00722C56 /* SwiftMessages.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftMessages.xcodeproj; path = "SwiftMsgCITest.xcodeproj/SwiftMessages-master/Demo/../SwiftMessages.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		475900B323CF8E2800722C56 /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		475900B823CF903900722C56 /* SwiftMessageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMessageHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475900B423CF8E2800722C56 /* SwiftMessages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,7 @@
 				4759009323CF8B8000722C56 /* SwiftMsgCITestTests */,
 				4759009E23CF8B8000722C56 /* SwiftMsgCITestUITests */,
 				4759007823CF8B8000722C56 /* Products */,
+				475900B223CF8E2800722C56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +125,9 @@
 		4759007923CF8B8000722C56 /* SwiftMsgCITest */ = {
 			isa = PBXGroup;
 			children = (
+				475900AF23CF8D0A00722C56 /* SwiftMessages.xcodeproj */,
 				4759007A23CF8B8000722C56 /* AppDelegate.swift */,
+				475900B823CF903900722C56 /* SwiftMessageHelper.swift */,
 				4759007C23CF8B8000722C56 /* SceneDelegate.swift */,
 				4759007E23CF8B8000722C56 /* ViewController.swift */,
 				4759008023CF8B8000722C56 /* Main.storyboard */,
@@ -131,6 +157,19 @@
 			path = SwiftMsgCITestUITests;
 			sourceTree = "<group>";
 		};
+		475900B023CF8D0A00722C56 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		475900B223CF8E2800722C56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				475900B323CF8E2800722C56 /* SwiftMessages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +180,7 @@
 				4759007323CF8B8000722C56 /* Sources */,
 				4759007423CF8B8000722C56 /* Frameworks */,
 				4759007523CF8B8000722C56 /* Resources */,
+				475900B623CF8E2800722C56 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,6 +261,12 @@
 			mainGroup = 4759006E23CF8B7F00722C56;
 			productRefGroup = 4759007823CF8B8000722C56 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 475900B023CF8D0A00722C56 /* Products */;
+					ProjectRef = 475900AF23CF8D0A00722C56 /* SwiftMessages.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4759007623CF8B8000722C56 /* SwiftMsgCITest */,
@@ -266,6 +312,7 @@
 				4759007B23CF8B8000722C56 /* AppDelegate.swift in Sources */,
 				4759007D23CF8B8000722C56 /* SceneDelegate.swift in Sources */,
 				4759008523CF8B8000722C56 /* SwiftMsgCITest.xcdatamodeld in Sources */,
+				475900B923CF903900722C56 /* SwiftMessageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4759009523CF8B8000722C56 /* SwiftMsgCITestTests.swift in Sources */,
+				475900BA23CF903900722C56 /* SwiftMessageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				475900A023CF8B8000722C56 /* SwiftMsgCITestUITests.swift in Sources */,
+				475900BB23CF903900722C56 /* SwiftMessageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
