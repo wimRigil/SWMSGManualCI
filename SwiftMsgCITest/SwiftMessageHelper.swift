@@ -24,12 +24,13 @@ class SwiftMessageHelper: NSObject {
     
     }
     
-    class func waitingMessage(message: String) {
-        let view = MessageView.viewFromNib(layout: .statusLine)
+    class func showError(message: String) {
         var config = SwiftMessages.defaultConfig
-        config.duration = .seconds(seconds: 180)
-        view.backgroundView.backgroundColor = UIColor(red: 0.11, green: 0.40, blue: 0.63, alpha: 1.0)
-        view.configureTheme(.info)
+        config.duration = .seconds(seconds: 10)
+        let view = MessageView.viewFromNib(layout: .statusLine)
+        view.configureContent(body: message)
+        view.configureTheme(.error)
+        view.backgroundView.backgroundColor = UIColor.gray
         SwiftMessages.show(config: config, view: view)
     }
 
