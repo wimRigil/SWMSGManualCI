@@ -27,7 +27,8 @@
 		4759012023D0B76300722C56 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759011D23D0B76300722C56 /* DataManager.swift */; };
 		4759012323D0B89300722C56 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 4759012223D0B89300722C56 /* KeychainAccess */; };
 		4759012623D0B9DD00722C56 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 4759012523D0B9DD00722C56 /* MBProgressHUD */; };
-		4759012C23D0C76100722C56 /* SGAnalyticsFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 4759012B23D0C76100722C56 /* SGAnalyticsFramework */; };
+		475A907423D0D81800E6784E /* SGAnalyticsFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 475A907323D0D81800E6784E /* SGAnalyticsFramework */; };
+		475A907F23D0E44500E6784E /* InstructionsFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 475A907E23D0E44500E6784E /* InstructionsFramework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,8 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475A907F23D0E44500E6784E /* InstructionsFramework in Frameworks */,
 				475900B423CF8E2800722C56 /* SwiftMessages.framework in Frameworks */,
-				4759012C23D0C76100722C56 /* SGAnalyticsFramework in Frameworks */,
+				475A907423D0D81800E6784E /* SGAnalyticsFramework in Frameworks */,
 				4759011C23D0B72C00722C56 /* Alamofire in Frameworks */,
 				4759012623D0B9DD00722C56 /* MBProgressHUD in Frameworks */,
 				4759012323D0B89300722C56 /* KeychainAccess in Frameworks */,
@@ -204,7 +206,8 @@
 				4759011B23D0B72C00722C56 /* Alamofire */,
 				4759012223D0B89300722C56 /* KeychainAccess */,
 				4759012523D0B9DD00722C56 /* MBProgressHUD */,
-				4759012B23D0C76100722C56 /* SGAnalyticsFramework */,
+				475A907323D0D81800E6784E /* SGAnalyticsFramework */,
+				475A907E23D0E44500E6784E /* InstructionsFramework */,
 			);
 			productName = SwiftMsgCITest;
 			productReference = 4759007723CF8B8000722C56 /* SwiftMsgCITest.app */;
@@ -282,7 +285,8 @@
 				4759011A23D0B72C00722C56 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				4759012123D0B89300722C56 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 				4759012423D0B9DD00722C56 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
-				4759012A23D0C76100722C56 /* XCRemoteSwiftPackageReference "SGAnalyticsPackage" */,
+				475A907223D0D81800E6784E /* XCRemoteSwiftPackageReference "SGAnalyticsSwiftPackage" */,
+				475A907D23D0E44500E6784E /* XCRemoteSwiftPackageReference "InstructionsSwiftPackage" */,
 			);
 			productRefGroup = 4759007823CF8B8000722C56 /* Products */;
 			projectDirPath = "";
@@ -697,9 +701,17 @@
 				minimumVersion = 1.2.0;
 			};
 		};
-		4759012A23D0C76100722C56 /* XCRemoteSwiftPackageReference "SGAnalyticsPackage" */ = {
+		475A907223D0D81800E6784E /* XCRemoteSwiftPackageReference "SGAnalyticsSwiftPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:wimRigil/SGAnalyticsPackage.git";
+			repositoryURL = "git@github.com:wimRigil/SGAnalyticsSwiftPackage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		475A907D23D0E44500E6784E /* XCRemoteSwiftPackageReference "InstructionsSwiftPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:wimRigil/InstructionsSwiftPackage.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -723,10 +735,15 @@
 			package = 4759012423D0B9DD00722C56 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
 			productName = MBProgressHUD;
 		};
-		4759012B23D0C76100722C56 /* SGAnalyticsFramework */ = {
+		475A907323D0D81800E6784E /* SGAnalyticsFramework */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4759012A23D0C76100722C56 /* XCRemoteSwiftPackageReference "SGAnalyticsPackage" */;
+			package = 475A907223D0D81800E6784E /* XCRemoteSwiftPackageReference "SGAnalyticsSwiftPackage" */;
 			productName = SGAnalyticsFramework;
+		};
+		475A907E23D0E44500E6784E /* InstructionsFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 475A907D23D0E44500E6784E /* XCRemoteSwiftPackageReference "InstructionsSwiftPackage" */;
+			productName = InstructionsFramework;
 		};
 /* End XCSwiftPackageProductDependency section */
 

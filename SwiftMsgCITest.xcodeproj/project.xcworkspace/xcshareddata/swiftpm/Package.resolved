@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "InstructionsFramework",
+        "repositoryURL": "git@github.com:wimRigil/InstructionsSwiftPackage.git",
+        "state": {
+          "branch": "master",
+          "revision": "e795cafa7e22a0ed61522dca5f572a3b71929f12",
+          "version": null
+        }
+      },
+      {
         "package": "KeychainAccess",
         "repositoryURL": "git@github.com:kishikawakatsumi/KeychainAccess.git",
         "state": {
@@ -30,10 +39,10 @@
       },
       {
         "package": "SGAnalyticsFramework",
-        "repositoryURL": "git@github.com:wimRigil/SGAnalyticsPackage.git",
+        "repositoryURL": "git@github.com:wimRigil/SGAnalyticsSwiftPackage.git",
         "state": {
           "branch": "master",
-          "revision": "f66871ea8496455a422e8aab1437290da44c9fc6",
+          "revision": "24d1e901efba1d1be216d06eff9a186a95d10ab7",
           "version": null
         }
       }

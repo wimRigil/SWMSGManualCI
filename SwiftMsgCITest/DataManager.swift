@@ -10,7 +10,10 @@ import UIKit
 import Alamofire
 import KeychainAccess
 import SGAnalyticsFramework
+import InstructionsFramework
 
 class DataManager: NSObject {
+    
+    
 
 }
