@@ -8,12 +8,16 @@
 
 import UIKit
 import MBProgressHUD
+import InstructionsFramework
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CoachMarksControllerDelegate {
 
+    let coachMarksController = CoachMarksController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.coachMarksController.dataSource = self as? CoachMarksControllerDataSource
     }
     
     @IBAction func buttonPressed(sender: UIButton) {
