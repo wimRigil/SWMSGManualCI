@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,10 @@
 		475900B923CF903900722C56 /* SwiftMessageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475900B823CF903900722C56 /* SwiftMessageHelper.swift */; };
 		475900BA23CF903900722C56 /* SwiftMessageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475900B823CF903900722C56 /* SwiftMessageHelper.swift */; };
 		475900BB23CF903900722C56 /* SwiftMessageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475900B823CF903900722C56 /* SwiftMessageHelper.swift */; };
+		4759011C23D0B72C00722C56 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4759011B23D0B72C00722C56 /* Alamofire */; };
+		4759011E23D0B76300722C56 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759011D23D0B76300722C56 /* DataManager.swift */; };
+		4759011F23D0B76300722C56 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759011D23D0B76300722C56 /* DataManager.swift */; };
+		4759012023D0B76300722C56 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759011D23D0B76300722C56 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,7 @@
 		475900AF23CF8D0A00722C56 /* SwiftMessages.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftMessages.xcodeproj; path = "SwiftMsgCITest.xcodeproj/SwiftMessages-master/Demo/../SwiftMessages.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		475900B323CF8E2800722C56 /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		475900B823CF903900722C56 /* SwiftMessageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMessageHelper.swift; sourceTree = "<group>"; };
+		4759011D23D0B76300722C56 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				475900B423CF8E2800722C56 /* SwiftMessages.framework in Frameworks */,
+				4759011C23D0B72C00722C56 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +134,7 @@
 				475900AF23CF8D0A00722C56 /* SwiftMessages.xcodeproj */,
 				4759007A23CF8B8000722C56 /* AppDelegate.swift */,
 				475900B823CF903900722C56 /* SwiftMessageHelper.swift */,
+				4759011D23D0B76300722C56 /* DataManager.swift */,
 				4759007C23CF8B8000722C56 /* SceneDelegate.swift */,
 				4759007E23CF8B8000722C56 /* ViewController.swift */,
 				4759008023CF8B8000722C56 /* Main.storyboard */,
@@ -187,6 +194,9 @@
 			dependencies = (
 			);
 			name = SwiftMsgCITest;
+			packageProductDependencies = (
+				4759011B23D0B72C00722C56 /* Alamofire */,
+			);
 			productName = SwiftMsgCITest;
 			productReference = 4759007723CF8B8000722C56 /* SwiftMsgCITest.app */;
 			productType = "com.apple.product-type.application";
@@ -259,6 +269,9 @@
 				Base,
 			);
 			mainGroup = 4759006E23CF8B7F00722C56;
+			packageReferences = (
+				4759011A23D0B72C00722C56 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 4759007823CF8B8000722C56 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -309,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4759007F23CF8B8000722C56 /* ViewController.swift in Sources */,
+				4759011E23D0B76300722C56 /* DataManager.swift in Sources */,
 				4759007B23CF8B8000722C56 /* AppDelegate.swift in Sources */,
 				4759007D23CF8B8000722C56 /* SceneDelegate.swift in Sources */,
 				4759008523CF8B8000722C56 /* SwiftMsgCITest.xcdatamodeld in Sources */,
@@ -321,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4759009523CF8B8000722C56 /* SwiftMsgCITestTests.swift in Sources */,
+				4759011F23D0B76300722C56 /* DataManager.swift in Sources */,
 				475900BA23CF903900722C56 /* SwiftMessageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				475900A023CF8B8000722C56 /* SwiftMsgCITestUITests.swift in Sources */,
+				4759012023D0B76300722C56 /* DataManager.swift in Sources */,
 				475900BB23CF903900722C56 /* SwiftMessageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -643,6 +659,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4759011A23D0B72C00722C56 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4759011B23D0B72C00722C56 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4759011A23D0B72C00722C56 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4759008323CF8B8000722C56 /* SwiftMsgCITest.xcdatamodeld */ = {
