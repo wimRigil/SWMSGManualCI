@@ -43,56 +43,56 @@ class DataManager: NSObject {
     
     var keychain = Keychain(service: "com.rigilenterprise.meenterprise05232013")
     
-    private func saveFirstRunOnDevice() {
-        UserDefaults.standard.set(false, forKey: UserDefaultConstants.FirstRun)
-    }
-    
-    func switchBundleIDKeychain() {
-        if Bundle.main.bundleIdentifier == "com.rigil.agenda01032012" {
-            keychain = Keychain(service: "com.rigil.agenda01032012")
-        }
-    }
-    
-    func removeCredentials() -> Void {
-        // Remove UserName,Password, Autho Token
-        self.switchBundleIDKeychain()
-        do {
-            try keychain.remove(KeyChainConstant.UserName)
-            try keychain.remove(KeyChainConstant.Password)
-            
-            
-        } catch let error {
-            print("error: \(error)")
-        }
-    }
-    
-    func saveUsername(username: String) -> Void {
-        self.switchBundleIDKeychain()
-        do {
-            try keychain.set(username, key: KeyChainConstant.UserName)
-            saveFirstRunOnDevice()
-        }
-        catch let error {
-            print(error)
-        }
-    }
-    
-    func userName() -> String {
-        self.switchBundleIDKeychain()
-        
-        let checkForFirstRun : Bool = checkForFirstRunOnDevice()
-        if checkForFirstRun {
-            DataManager.shared.removeCredentials()
-            return ""
-            
-        }else{
-            let savedUsername = keychain[string: KeyChainConstant.UserName]
-            if (savedUsername != nil) {
-                return savedUsername!
-            }else{
-                return ""
-            }
-        }
-    }
+//    private func saveFirstRunOnDevice() {
+//        UserDefaults.standard.set(false, forKey: UserDefaultConstants.FirstRun)
+//    }
+//    
+//    func switchBundleIDKeychain() {
+//        if Bundle.main.bundleIdentifier == "com.rigil.agenda01032012" {
+//            keychain = Keychain(service: "com.rigil.agenda01032012")
+//        }
+//    }
+//    
+//    func removeCredentials() -> Void {
+//        // Remove UserName,Password, Autho Token
+//        self.switchBundleIDKeychain()
+//        do {
+//            try keychain.remove(KeyChainConstant.UserName)
+//            try keychain.remove(KeyChainConstant.Password)
+//            
+//            
+//        } catch let error {
+//            print("error: \(error)")
+//        }
+//    }
+//    
+//    func saveUsername(username: String) -> Void {
+//        self.switchBundleIDKeychain()
+//        do {
+//            try keychain.set(username, key: KeyChainConstant.UserName)
+//            saveFirstRunOnDevice()
+//        }
+//        catch let error {
+//            print(error)
+//        }
+//    }
+//    
+//    func userName() -> String {
+//        self.switchBundleIDKeychain()
+//        
+//        let checkForFirstRun : Bool = checkForFirstRunOnDevice()
+//        if checkForFirstRun {
+//            DataManager.shared.removeCredentials()
+//            return ""
+//            
+//        }else{
+//            let savedUsername = keychain[string: KeyChainConstant.UserName]
+//            if (savedUsername != nil) {
+//                return savedUsername!
+//            }else{
+//                return ""
+//            }
+//        }
+//    }
 
 }
