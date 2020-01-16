@@ -23,9 +23,9 @@
         "package": "KeychainAccess",
         "repositoryURL": "git@github.com:kishikawakatsumi/KeychainAccess.git",
         "state": {
-          "branch": null,
-          "revision": "b920ad7df3c73189dcdd4aa05c540849b2010dbf",
-          "version": "4.1.0"
+          "branch": "master",
+          "revision": "9f8dc095df61c5b2d955d0821155b9ad558ebcb2",
+          "version": null
         }
       },
       {

@@ -41,7 +41,7 @@ class DataManager: NSObject {
         }
     }
     
-//    var keychain = Keychain(service: "com.rigilenterprise.meenterprise05232013")
+    var keychain = Keychain(service: "com.rigilenterprise.meenterprise05232013")
     
 //    private func saveFirstRunOnDevice() {
 //        UserDefaults.standard.set(false, forKey: UserDefaultConstants.FirstRun)
@@ -97,55 +97,55 @@ class DataManager: NSObject {
     
     
     
-    func requestBlueSheetDynamicForms(urlExtension: String, bidId: Int, completion: @escaping (_ success: Bool, _ response: HTTPURLResponse) -> Void) {
-        
-        let fullURL = " "
-        
-        let bearer = "bearer "
-        let header = [
-            "Authorization": bearer
-            ] as HTTPHeaders
-        
-        Alamofire.request(fullURL, method: .get, encoding: JSONEncoding.default, headers:header).validate().responseJSON { response in
-            
-            let code = response.response?.statusCode ?? 0
-            print("DataManager - Request BlueSheet - HTML Code : \(code)")
-            
-            if (code == 401 || code == 500)   {
-                
-            }
-            
-            if code == 404 {
-                print("DataManager - Request Blue sheet error 404")
-                //SwiftMessagesHelper.showError(message: SwiftErrorMessage.failShowBlueSheet.rawValue)
-                
-            }
-            
-            switch response.result {
-                
-            case .success(let value):
-                
-                
-                print("show the value: \(value)")
-                
-                
-                if response.response != nil {
-                    completion(true, response.response!)
-                }
-            case .failure(let error):
-                
-                 print("show the error for Blue Sheet: \(error)")
-                
-                 if response.response != nil {
-                    completion(false, response.response!)
-                 } else {
-                    
-                }
-                
-            }
-        }
-        
-    }
+//    func requestBlueSheetDynamicForms(urlExtension: String, bidId: Int, completion: @escaping (_ success: Bool, _ response: HTTPURLResponse) -> Void) {
+//        
+//        let fullURL = " "
+//        
+//        let bearer = "bearer "
+//        let header = [
+//            "Authorization": bearer
+//            ] as HTTPHeaders
+//        
+//        Alamofire.request(fullURL, method: .get, encoding: JSONEncoding.default, headers:header).validate().responseJSON { response in
+//            
+//            let code = response.response?.statusCode ?? 0
+//            print("DataManager - Request BlueSheet - HTML Code : \(code)")
+//            
+//            if (code == 401 || code == 500)   {
+//                
+//            }
+//            
+//            if code == 404 {
+//                print("DataManager - Request Blue sheet error 404")
+//                //SwiftMessagesHelper.showError(message: SwiftErrorMessage.failShowBlueSheet.rawValue)
+//                
+//            }
+//            
+//            switch response.result {
+//                
+//            case .success(let value):
+//                
+//                
+//                print("show the value: \(value)")
+//                
+//                
+//                if response.response != nil {
+//                    completion(true, response.response!)
+//                }
+//            case .failure(let error):
+//                
+//                 print("show the error for Blue Sheet: \(error)")
+//                
+//                 if response.response != nil {
+//                    completion(false, response.response!)
+//                 } else {
+//                    
+//                }
+//                
+//            }
+//        }
+//        
+//    }
     
     
     
