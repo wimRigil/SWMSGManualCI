@@ -35,7 +35,7 @@ class DataManager: NSObject {
             return savedFirstRunStatus
             
         } else {
-            DataManager.shared.removeCredentials()
+//            DataManager.shared.removeCredentials()
             userDefaults.set(true, forKey: UserDefaultConstants.FirstRun)
             return true // true when first time it will run
         }
@@ -46,26 +46,26 @@ class DataManager: NSObject {
 //    private func saveFirstRunOnDevice() {
 //        UserDefaults.standard.set(false, forKey: UserDefaultConstants.FirstRun)
 //    }
-//    
+//
 //    func switchBundleIDKeychain() {
 //        if Bundle.main.bundleIdentifier == "com.rigil.agenda01032012" {
 //            keychain = Keychain(service: "com.rigil.agenda01032012")
 //        }
 //    }
-//    
+//
 //    func removeCredentials() -> Void {
 //        // Remove UserName,Password, Autho Token
 //        self.switchBundleIDKeychain()
 //        do {
 //            try keychain.remove(KeyChainConstant.UserName)
 //            try keychain.remove(KeyChainConstant.Password)
-//            
-//            
+//
+//
 //        } catch let error {
 //            print("error: \(error)")
 //        }
 //    }
-//    
+//
 //    func saveUsername(username: String) -> Void {
 //        self.switchBundleIDKeychain()
 //        do {
@@ -76,15 +76,15 @@ class DataManager: NSObject {
 //            print(error)
 //        }
 //    }
-//    
+//
 //    func userName() -> String {
 //        self.switchBundleIDKeychain()
-//        
+//
 //        let checkForFirstRun : Bool = checkForFirstRunOnDevice()
 //        if checkForFirstRun {
 //            DataManager.shared.removeCredentials()
 //            return ""
-//            
+//
 //        }else{
 //            let savedUsername = keychain[string: KeyChainConstant.UserName]
 //            if (savedUsername != nil) {
