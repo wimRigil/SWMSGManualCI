@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import KeychainAccess
+import SGAnalyticsFramework
 
 class DataManager: NSObject {
 
