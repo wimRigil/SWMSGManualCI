@@ -21,6 +21,7 @@ class SwiftMessageHelper: NSObject {
         view.configureContent(body: "failedto update data")
         view.configureTheme(.error)
         SwiftMessages.show(view: view)
+        
     
     }
     
