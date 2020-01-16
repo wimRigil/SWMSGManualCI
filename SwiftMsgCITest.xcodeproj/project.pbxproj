@@ -26,6 +26,7 @@
 		4759011F23D0B76300722C56 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759011D23D0B76300722C56 /* DataManager.swift */; };
 		4759012023D0B76300722C56 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759011D23D0B76300722C56 /* DataManager.swift */; };
 		4759012323D0B89300722C56 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 4759012223D0B89300722C56 /* KeychainAccess */; };
+		4759012623D0B9DD00722C56 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 4759012523D0B9DD00722C56 /* MBProgressHUD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 			files = (
 				475900B423CF8E2800722C56 /* SwiftMessages.framework in Frameworks */,
 				4759011C23D0B72C00722C56 /* Alamofire in Frameworks */,
+				4759012623D0B9DD00722C56 /* MBProgressHUD in Frameworks */,
 				4759012323D0B89300722C56 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +201,7 @@
 			packageProductDependencies = (
 				4759011B23D0B72C00722C56 /* Alamofire */,
 				4759012223D0B89300722C56 /* KeychainAccess */,
+				4759012523D0B9DD00722C56 /* MBProgressHUD */,
 			);
 			productName = SwiftMsgCITest;
 			productReference = 4759007723CF8B8000722C56 /* SwiftMsgCITest.app */;
@@ -275,6 +278,7 @@
 			packageReferences = (
 				4759011A23D0B72C00722C56 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				4759012123D0B89300722C56 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				4759012423D0B9DD00722C56 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
 			);
 			productRefGroup = 4759007823CF8B8000722C56 /* Products */;
 			projectDirPath = "";
@@ -681,6 +685,14 @@
 				minimumVersion = 4.1.0;
 			};
 		};
+		4759012423D0B9DD00722C56 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -693,6 +705,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4759012123D0B89300722C56 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
 			productName = KeychainAccess;
+		};
+		4759012523D0B9DD00722C56 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4759012423D0B9DD00722C56 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
 		};
 /* End XCSwiftPackageProductDependency section */
 
