@@ -10,13 +10,11 @@ import UIKit
 import Alamofire
 import KeychainAccess
 import SGAnalyticsFramework
-import InstructionsFramework
+
 
 class DataManager: NSObject {
     
     static let shared = DataManager()
-    
-    let coachMarksController = CoachMarksController()
     
     enum KeyChainConstant {
         static let UserName = "Username"
