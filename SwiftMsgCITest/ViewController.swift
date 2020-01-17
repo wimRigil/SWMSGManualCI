@@ -9,16 +9,25 @@
 import UIKit
 import MBProgressHUD
 import InstructionsFramework
+import KeychainAccess
 
 class ViewController: UIViewController, CoachMarksControllerDelegate {
 
     let coachMarksController = CoachMarksController()
     
+    var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.coachMarksController.dataSource = self as? CoachMarksControllerDataSource
+        
+        
+        
     }
+    
+    
+    
     
     @IBAction func buttonPressed(sender: UIButton) {
         
