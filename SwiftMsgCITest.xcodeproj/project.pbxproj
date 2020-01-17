@@ -26,9 +26,9 @@
 		4759012623D0B9DD00722C56 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 4759012523D0B9DD00722C56 /* MBProgressHUD */; };
 		475A907423D0D81800E6784E /* SGAnalyticsFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 475A907323D0D81800E6784E /* SGAnalyticsFramework */; };
 		475A907F23D0E44500E6784E /* InstructionsFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 475A907E23D0E44500E6784E /* InstructionsFramework */; };
-		47BBCE5823D238F600F1D036 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBCE5723D238F600F1D036 /* DataManager.swift */; };
-		47BBCE5923D238F600F1D036 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBCE5723D238F600F1D036 /* DataManager.swift */; };
-		47BBCE5A23D238F600F1D036 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBCE5723D238F600F1D036 /* DataManager.swift */; };
+		47BBCE5C23D23A8000F1D036 /* DataViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBCE5B23D23A8000F1D036 /* DataViewSample.swift */; };
+		47BBCE5D23D23A8000F1D036 /* DataViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBCE5B23D23A8000F1D036 /* DataViewSample.swift */; };
+		47BBCE5E23D23A8000F1D036 /* DataViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBCE5B23D23A8000F1D036 /* DataViewSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +81,7 @@
 		475900AF23CF8D0A00722C56 /* SwiftMessages.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftMessages.xcodeproj; path = "SwiftMsgCITest.xcodeproj/SwiftMessages-master/Demo/../SwiftMessages.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		475900B323CF8E2800722C56 /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		475900B823CF903900722C56 /* SwiftMessageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMessageHelper.swift; sourceTree = "<group>"; };
-		47BBCE5723D238F600F1D036 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		47BBCE5B23D23A8000F1D036 /* DataViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +144,7 @@
 				475900B823CF903900722C56 /* SwiftMessageHelper.swift */,
 				4759007C23CF8B8000722C56 /* SceneDelegate.swift */,
 				4759007E23CF8B8000722C56 /* ViewController.swift */,
-				47BBCE5723D238F600F1D036 /* DataManager.swift */,
+				47BBCE5B23D23A8000F1D036 /* DataViewSample.swift */,
 				4759008023CF8B8000722C56 /* Main.storyboard */,
 				4759008623CF8B8000722C56 /* Assets.xcassets */,
 				4759008823CF8B8000722C56 /* LaunchScreen.storyboard */,
@@ -338,10 +338,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4759007F23CF8B8000722C56 /* ViewController.swift in Sources */,
-				47BBCE5823D238F600F1D036 /* DataManager.swift in Sources */,
 				4759007B23CF8B8000722C56 /* AppDelegate.swift in Sources */,
 				4759007D23CF8B8000722C56 /* SceneDelegate.swift in Sources */,
 				4759008523CF8B8000722C56 /* SwiftMsgCITest.xcdatamodeld in Sources */,
+				47BBCE5C23D23A8000F1D036 /* DataViewSample.swift in Sources */,
 				475900B923CF903900722C56 /* SwiftMessageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4759009523CF8B8000722C56 /* SwiftMsgCITestTests.swift in Sources */,
-				47BBCE5923D238F600F1D036 /* DataManager.swift in Sources */,
+				47BBCE5D23D23A8000F1D036 /* DataViewSample.swift in Sources */,
 				475900BA23CF903900722C56 /* SwiftMessageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,7 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				475900A023CF8B8000722C56 /* SwiftMsgCITestUITests.swift in Sources */,
-				47BBCE5A23D238F600F1D036 /* DataManager.swift in Sources */,
+				47BBCE5E23D23A8000F1D036 /* DataViewSample.swift in Sources */,
 				475900BB23CF903900722C56 /* SwiftMessageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
