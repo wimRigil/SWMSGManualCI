@@ -41,7 +41,7 @@ class DataManager: NSObject {
         }
     }
     
-    var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
+    public var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
     
 //    private func saveFirstRunOnDevice() {
 //        UserDefaults.standard.set(false, forKey: UserDefaultConstants.FirstRun)
