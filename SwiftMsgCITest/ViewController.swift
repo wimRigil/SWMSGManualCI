@@ -73,35 +73,35 @@ class ViewController: UIViewController, CoachMarksControllerDelegate {
             print("error: \(error)")
         }
     }
-    //
-    //    func saveUsername(username: String) -> Void {
-    //        self.switchBundleIDKeychain()
-    //        do {
-    //            try keychain.set(username, key: KeyChainConstant.UserName)
-    //            saveFirstRunOnDevice()
-    //        }
-    //        catch let error {
-    //            print(error)
-    //        }
-    //    }
-    //
-    //    func userName() -> String {
-    //        self.switchBundleIDKeychain()
-    //
-    //        let checkForFirstRun : Bool = checkForFirstRunOnDevice()
-    //        if checkForFirstRun {
-    //            DataManager.shared.removeCredentials()
-    //            return ""
-    //
-    //        }else{
-    //            let savedUsername = keychain[string: KeyChainConstant.UserName]
-    //            if (savedUsername != nil) {
-    //                return savedUsername!
-    //            }else{
-    //                return ""
-    //            }
-    //        }
-    //    }
+    
+    func saveUsername(username: String) -> Void {
+        self.switchBundleIDKeychain()
+        do {
+            try keychain.set(username, key: KeyChainConstant.UserName)
+            saveFirstRunOnDevice()
+        }
+        catch let error {
+            print(error)
+        }
+    }
+    
+    func userName() -> String {
+        self.switchBundleIDKeychain()
+    
+        let checkForFirstRun : Bool = checkForFirstRunOnDevice()
+        if checkForFirstRun {
+            DataManager.shared.removeCredentials()
+            return ""
+    
+        }else{
+            let savedUsername = keychain[string: KeyChainConstant.UserName]
+            if (savedUsername != nil) {
+                return savedUsername!
+            }else{
+                return ""
+            }
+        }
+    }
     
     
     
