@@ -41,15 +41,15 @@ class DataManager: NSObject {
         }
     }
     
-    public var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
+    //var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
     
 //    private func saveFirstRunOnDevice() {
 //        UserDefaults.standard.set(false, forKey: UserDefaultConstants.FirstRun)
 //    }
 //
 //    func switchBundleIDKeychain() {
-//        if Bundle.main.bundleIdentifier == "com.rigil.agenda01032012" {
-//            keychain = Keychain(service: "com.rigil.agenda01032012")
+//        if Bundle.main.bundleIdentifier == "com.appsdeveloper.SwiftMsgCITest" {
+//            keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
 //        }
 //    }
 //
