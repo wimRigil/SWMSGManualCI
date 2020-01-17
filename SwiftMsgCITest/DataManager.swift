@@ -6,13 +6,16 @@
 //  Copyright © 2020 Wim Tanudjaja. All rights reserved.
 //
 
-import UIKit
+import Foundation
 import KeychainAccess
 
 class DataManager: NSObject {
     
+    static let shared = DataManager()
     
     var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
     
-
+    
 }
+
+
