@@ -35,7 +35,6 @@ class ViewController: UIViewController, CoachMarksControllerDelegate {
            self.coachMarksController.dataSource = self as? CoachMarksControllerDataSource
            
            
-           
        }
         
     func checkForFirstRunOnDevice() -> Bool {
