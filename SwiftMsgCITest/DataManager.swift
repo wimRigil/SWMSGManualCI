@@ -16,6 +16,8 @@ class DataManager: NSObject {
     
     static let shared = DataManager()
     
+    let coachMarksController = CoachMarksController()
+    
     enum KeyChainConstant {
         static let UserName = "Username"
         static let Password = "Password"
@@ -27,6 +29,8 @@ class DataManager: NSObject {
         static let OrganizationID = "Organization ID"
         static let APIURL = "APIURL"
     }
+    
+    
     
     func checkForFirstRunOnDevice() -> Bool {
         let userDefaults = UserDefaults.standard
