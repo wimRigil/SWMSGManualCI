@@ -90,7 +90,7 @@ class ViewController: UIViewController, CoachMarksControllerDelegate {
     
         let checkForFirstRun : Bool = checkForFirstRunOnDevice()
         if checkForFirstRun {
-            DataManager.shared.removeCredentials()
+            removeCredentials()
             return ""
     
         }else{
