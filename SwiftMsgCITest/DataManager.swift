@@ -11,7 +11,6 @@ import KeychainAccess
 
 class DataManager: NSObject {
     
-    static let shared = DataManager()
     
     var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
     
