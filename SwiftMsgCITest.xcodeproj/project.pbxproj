@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473F460923D7B344003BFE72 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473F460723D7B33C003BFE72 /* CoreData.framework */; };
+		473F460A23D7B344003BFE72 /* CoreData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 473F460723D7B33C003BFE72 /* CoreData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		47509B3D23D11FB300A1CD1C /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 47509B3C23D11FB300A1CD1C /* KeychainAccess */; };
 		4759007B23CF8B8000722C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759007A23CF8B8000722C56 /* AppDelegate.swift */; };
 		4759007D23CF8B8000722C56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759007C23CF8B8000722C56 /* SceneDelegate.swift */; };
@@ -29,6 +31,9 @@
 		47BBCE5C23D23A8000F1D036 /* DataViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBCE5B23D23A8000F1D036 /* DataViewSample.swift */; };
 		47BBCE5D23D23A8000F1D036 /* DataViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBCE5B23D23A8000F1D036 /* DataViewSample.swift */; };
 		47BBCE5E23D23A8000F1D036 /* DataViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBCE5B23D23A8000F1D036 /* DataViewSample.swift */; };
+		47BBCE6123D2411F00F1D036 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBCE6023D2411F00F1D036 /* DataManager.swift */; };
+		47BBCE6223D2411F00F1D036 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBCE6023D2411F00F1D036 /* DataManager.swift */; };
+		47BBCE6323D2411F00F1D036 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBCE6023D2411F00F1D036 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				475900B523CF8E2800722C56 /* SwiftMessages.framework in Embed Frameworks */,
+				473F460A23D7B344003BFE72 /* CoreData.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,10 +69,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		473F460723D7B33C003BFE72 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4759007723CF8B8000722C56 /* SwiftMsgCITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMsgCITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4759007A23CF8B8000722C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4759007C23CF8B8000722C56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4759007E23CF8B8000722C56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4759007E23CF8B8000722C56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4759008123CF8B8000722C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4759008423CF8B8000722C56 /* SwiftMsgCITest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftMsgCITest.xcdatamodel; sourceTree = "<group>"; };
 		4759008623CF8B8000722C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +89,7 @@
 		475900B323CF8E2800722C56 /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		475900B823CF903900722C56 /* SwiftMessageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMessageHelper.swift; sourceTree = "<group>"; };
 		47BBCE5B23D23A8000F1D036 /* DataViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewSample.swift; sourceTree = "<group>"; };
+		47BBCE6023D2411F00F1D036 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +99,7 @@
 			files = (
 				475A907F23D0E44500E6784E /* InstructionsFramework in Frameworks */,
 				475900B423CF8E2800722C56 /* SwiftMessages.framework in Frameworks */,
+				473F460923D7B344003BFE72 /* CoreData.framework in Frameworks */,
 				47509B3D23D11FB300A1CD1C /* KeychainAccess in Frameworks */,
 				475A907423D0D81800E6784E /* SGAnalyticsFramework in Frameworks */,
 				4759011C23D0B72C00722C56 /* Alamofire in Frameworks */,
@@ -145,6 +154,7 @@
 				4759007C23CF8B8000722C56 /* SceneDelegate.swift */,
 				4759007E23CF8B8000722C56 /* ViewController.swift */,
 				47BBCE5B23D23A8000F1D036 /* DataViewSample.swift */,
+				47BBCE6023D2411F00F1D036 /* DataManager.swift */,
 				4759008023CF8B8000722C56 /* Main.storyboard */,
 				4759008623CF8B8000722C56 /* Assets.xcassets */,
 				4759008823CF8B8000722C56 /* LaunchScreen.storyboard */,
@@ -180,6 +190,7 @@
 		475900B223CF8E2800722C56 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				473F460723D7B33C003BFE72 /* CoreData.framework */,
 				475900B323CF8E2800722C56 /* SwiftMessages.framework */,
 			);
 			name = Frameworks;
@@ -340,6 +351,7 @@
 				4759007F23CF8B8000722C56 /* ViewController.swift in Sources */,
 				4759007B23CF8B8000722C56 /* AppDelegate.swift in Sources */,
 				4759007D23CF8B8000722C56 /* SceneDelegate.swift in Sources */,
+				47BBCE6123D2411F00F1D036 /* DataManager.swift in Sources */,
 				4759008523CF8B8000722C56 /* SwiftMsgCITest.xcdatamodeld in Sources */,
 				47BBCE5C23D23A8000F1D036 /* DataViewSample.swift in Sources */,
 				475900B923CF903900722C56 /* SwiftMessageHelper.swift in Sources */,
@@ -351,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4759009523CF8B8000722C56 /* SwiftMsgCITestTests.swift in Sources */,
+				47BBCE6223D2411F00F1D036 /* DataManager.swift in Sources */,
 				47BBCE5D23D23A8000F1D036 /* DataViewSample.swift in Sources */,
 				475900BA23CF903900722C56 /* SwiftMessageHelper.swift in Sources */,
 			);
@@ -361,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				475900A023CF8B8000722C56 /* SwiftMsgCITestUITests.swift in Sources */,
+				47BBCE6323D2411F00F1D036 /* DataManager.swift in Sources */,
 				47BBCE5E23D23A8000F1D036 /* DataViewSample.swift in Sources */,
 				475900BB23CF903900722C56 /* SwiftMessageHelper.swift in Sources */,
 			);
@@ -518,6 +532,7 @@
 		475900A523CF8B8000722C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W2TWPT5XS8;
@@ -536,6 +551,7 @@
 		475900A623CF8B8000722C56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W2TWPT5XS8;

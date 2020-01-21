@@ -18,6 +18,7 @@ class ViewController: UIViewController, CoachMarksControllerDelegate {
     
     var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
     
+    
     enum KeyChainConstant {
         static let UserName = "Username"
         static let Password = "Password"
@@ -33,7 +34,6 @@ class ViewController: UIViewController, CoachMarksControllerDelegate {
            super.viewDidLoad()
            // Do any additional setup after loading the view.
            self.coachMarksController.dataSource = self as? CoachMarksControllerDataSource
-           
            
        }
         
@@ -67,7 +67,7 @@ class ViewController: UIViewController, CoachMarksControllerDelegate {
         do {
             try keychain.remove(KeyChainConstant.UserName)
             try keychain.remove(KeyChainConstant.Password)
-    
+            
     
         } catch let error {
             print("error: \(error)")
