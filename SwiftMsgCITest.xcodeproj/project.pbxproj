@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		473F460923D7B344003BFE72 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473F460723D7B33C003BFE72 /* CoreData.framework */; };
-		473F460A23D7B344003BFE72 /* CoreData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 473F460723D7B33C003BFE72 /* CoreData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		474306F523D8D4530015732E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474306F423D8D4530015732E /* CoreLocation.framework */; };
 		47509B3D23D11FB300A1CD1C /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 47509B3C23D11FB300A1CD1C /* KeychainAccess */; };
 		4759007B23CF8B8000722C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759007A23CF8B8000722C56 /* AppDelegate.swift */; };
 		4759007D23CF8B8000722C56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759007C23CF8B8000722C56 /* SceneDelegate.swift */; };
@@ -61,7 +60,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				475900B523CF8E2800722C56 /* SwiftMessages.framework in Embed Frameworks */,
-				473F460A23D7B344003BFE72 /* CoreData.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +68,7 @@
 
 /* Begin PBXFileReference section */
 		473F460723D7B33C003BFE72 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		474306F423D8D4530015732E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4759007723CF8B8000722C56 /* SwiftMsgCITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMsgCITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4759007A23CF8B8000722C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4759007C23CF8B8000722C56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,9 +98,9 @@
 			files = (
 				475A907F23D0E44500E6784E /* InstructionsFramework in Frameworks */,
 				475900B423CF8E2800722C56 /* SwiftMessages.framework in Frameworks */,
-				473F460923D7B344003BFE72 /* CoreData.framework in Frameworks */,
 				47509B3D23D11FB300A1CD1C /* KeychainAccess in Frameworks */,
 				475A907423D0D81800E6784E /* SGAnalyticsFramework in Frameworks */,
+				474306F523D8D4530015732E /* CoreLocation.framework in Frameworks */,
 				4759011C23D0B72C00722C56 /* Alamofire in Frameworks */,
 				4759012623D0B9DD00722C56 /* MBProgressHUD in Frameworks */,
 			);
@@ -190,6 +189,7 @@
 		475900B223CF8E2800722C56 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				474306F423D8D4530015732E /* CoreLocation.framework */,
 				473F460723D7B33C003BFE72 /* CoreData.framework */,
 				475900B323CF8E2800722C56 /* SwiftMessages.framework */,
 			);

@@ -8,6 +8,7 @@
 
 import UIKit
 import KeychainAccess
+import CoreLocation
 import CoreData
 
 class DataManager: NSObject {
