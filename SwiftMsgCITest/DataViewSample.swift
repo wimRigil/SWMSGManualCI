@@ -7,11 +7,11 @@
 //
 
 import UIKit
-import KeychainAccess
+//import KeychainAccess
 
 class DataViewSample: UIViewController {
     
-    var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
+    //var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
 
     override func viewDidLoad() {
         super.viewDidLoad()
