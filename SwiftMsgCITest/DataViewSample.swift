@@ -7,12 +7,12 @@
 //
 
 import UIKit
-//import KeychainAccess
+import KeychainAccess
 import CoreLocation
 
 class DataViewSample: UIViewController, CLLocationManagerDelegate {
     
-    //var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
+    var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
     
     var locationManager: CLLocationManager?
     
