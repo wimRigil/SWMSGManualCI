@@ -7,14 +7,14 @@
 //
 
 import UIKit
-import KeychainAccess
+//import KeychainAccess
 import CoreData
 
 class DataManager: NSObject {
     
     static let shared = DataManager()
     
-    var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
+//    var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
     
     lazy var managedObjectContext: NSManagedObjectContext = {
     // Returns the managed object context for the application (which is already bound to the persistent store coordinator for the application.) This property is optional since there are legitimate error conditions that could cause the creation of the context to fail.
