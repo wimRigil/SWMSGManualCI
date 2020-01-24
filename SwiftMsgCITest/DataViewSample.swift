@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import KeychainAccess
+import KeychainAccess
 import CoreLocation
 
 class DataViewSample: UIViewController, CLLocationManagerDelegate {

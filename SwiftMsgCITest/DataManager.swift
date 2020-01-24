@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import KeychainAccess
+import KeychainAccess
 import CoreData
 
 class DataManager: NSObject {
